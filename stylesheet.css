@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightseagreen;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+    background-color:lightseagreen;
+    color: lightblue;
+}
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color:lightblue;
+}
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 25px;
+    line-height: 1.6;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.btn {
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.primary {
+    background-color: darkblue;
+    color:lightblue;
+}
+.secondary {
+    background-color:darkgreen;
+    color: black
+}
+.features {
+    padding: 70px 20px;
+    text-align: center;
+}
+.features h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.feature-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box {
+    background-color:lightblue;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+
+    box-shadow: 0 2px 10px lightblue;
+}
+.box h3 {
+    margin-bottom: 10px;
+}
+.cta {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1e293b;
+    color:lightblue;
+}
+.cta h2 {
+    margin-bottom: 20px;
+}
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    background-color:lightblue;
+    color:black;
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.mission {
+    background-color:lightblue;
+}
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.member {
+    background:lightblue;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.photo {
+    width: 60px;
+    height: 60px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+.story {
+    background-color:lightseagreen;
+}
+h2 {
+    margin-bottom: 15px;
+}
+.feature-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin:20px auto;
+}
+.feature-image img {
+    width: 250px;
+    border-radius: 10px;
+    object-fit: contain;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.feature-text {
+    max-width: ;
+}
+.feature-text h2 {
+    margin-bottom: 10px;
+}
+.feature-text ul {
+    list-style: none;
+    padding: 0;
+}
+.feature-text li {
+    margin-bottom: 8px;
+}
+.featured-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    background:lightblue;
+    padding: 20px;
+
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.featured-card img {
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.featured-text {
+    flex: 1;
+}
+.meta {
+    font-size: 14px;
+    color:lightblue;
+    margin-bottom: 10px;
+}
+.article-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.article {
+    width: 250px;
+    background:lightblue;
+    padding: 15px;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.article img {
+    width: 100%;
+    border-radius: 8px;
+}
+.newsletter {
+    text-align: center;
+    padding: 60px 20px;
+}
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    b
+.blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+.blog-post h1 {
+    margin-bottom: 10px;
+}
+.blog-post h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.blog-image {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.meta {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}order: 1px solid: lightblue;
+}
